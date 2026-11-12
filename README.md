@@ -1,6 +1,6 @@
 # Web Sekolah Rizky
 
-Website sekolah ini dibuat dengan Laravel 12. Halaman beranda saat ini berupa tampilan statis, sehingga bisa dipublikasikan gratis melalui GitHub Pages tanpa kartu kredit.
+Website sekolah ini dibuat dengan Laravel 12. Halaman beranda saat ini berupa tampilan statis, sehingga bisa dipublikasikan gratis melalui GitHub Pages atau Vercel.
 
 ## Menjalankan secara lokal
 
@@ -21,3 +21,9 @@ Untuk mengaktifkan deployment pertama kali:
 4. Buka `https://ucokkesleo-ship-it.github.io/web_sekolahrizky/`.
 
 Halaman GitHub Pages ini hanya menayangkan tampilan statis. Route dinamis Laravel, PHP, database, dan pengiriman formulir tidak dijalankan di GitHub Pages.
+
+## Deploy ke Vercel
+
+Import repository GitHub ini ke Vercel. Konfigurasi pada `vercel.json` membangun tampilan beranda statis ke folder `_site` dan menerbitkannya. Perubahan pada branch `main` akan memicu deployment baru secara otomatis.
+
+Deployment statis ini hanya menayangkan halaman beranda. Route dinamis Laravel, database, dan pengiriman formulir tidak dijalankan.
