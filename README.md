@@ -24,6 +24,6 @@ Halaman GitHub Pages ini hanya menayangkan tampilan statis. Route dinamis Larave
 
 ## Deploy ke Vercel
 
-Import repository GitHub ini ke Vercel. Konfigurasi pada `vercel.json` membangun tampilan beranda statis ke folder `_site` dan menerbitkannya. Perubahan pada branch `main` akan memicu deployment baru secara otomatis.
+Import repository GitHub ini ke Vercel. Konfigurasi pada `vercel.json` menjalankan `scripts/build-static.mjs` untuk membangun tampilan beranda statis ke folder `_site` dan menerbitkannya. Perubahan pada branch `main` akan memicu deployment baru secara otomatis.
 
 Deployment statis ini hanya menayangkan halaman beranda. Route dinamis Laravel, database, dan pengiriman formulir tidak dijalankan.
