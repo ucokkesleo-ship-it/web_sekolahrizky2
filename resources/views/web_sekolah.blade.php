@@ -158,7 +158,7 @@
                     </div>
                     <div class="container-fluid">
                         <div class="float-md-start p-2">
-                            <img class="img-fluid" style="width: 300px;; max-width: 100%; height: auto;" src="/images/images.jpg" alt="">
+                            <img class="img-fluid" style="width: 300px; max-width: 100%; height: auto;" src="/images/images.jpg" alt="">
                         </div>
                         <div class="p-2 d-block">
                             Assalamu'alaikum Warahmatullahi Wabarakatuh,
